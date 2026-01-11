@@ -4,9 +4,21 @@
  */
 
 const CVParser = {
+  getBasePath() {
+    // Handle GitHub Pages subpath
+    const path = window.location.pathname;
+    const parts = path.split('/').filter(p => p);
+    // If we're in a subpath like /NNOON/cv.html, return /NNOON/
+    if (parts.length >= 1 && parts[parts.length - 1].endsWith('.html')) {
+      parts.pop();
+    }
+    return parts.length > 0 ? '/' + parts.join('/') + '/' : '/';
+  },
+
   async load() {
     try {
-      const response = await fetch('content/cv.md');
+      const basePath = this.getBasePath();
+      const response = await fetch(basePath + 'content/cv.md');
       if (!response.ok) throw new Error('CV file not found');
       const markdown = await response.text();
       return this.parse(markdown);

@@ -7,9 +7,19 @@ const BlogParser = {
     posts: [],
     activeTag: 'All',
 
+    getBasePath() {
+        const path = window.location.pathname;
+        const parts = path.split('/').filter(p => p);
+        if (parts.length >= 1 && parts[parts.length - 1].endsWith('.html')) {
+            parts.pop();
+        }
+        return parts.length > 0 ? '/' + parts.join('/') + '/' : '/';
+    },
+
     async loadIndex() {
         try {
-            const response = await fetch('content/posts/index.json');
+            const basePath = this.getBasePath();
+            const response = await fetch(basePath + 'content/posts/index.json');
             if (!response.ok) throw new Error('Posts index not found');
             this.posts = await response.json();
             return this.posts;

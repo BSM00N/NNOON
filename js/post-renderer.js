@@ -4,6 +4,15 @@
  */
 
 const PostRenderer = {
+    getBasePath() {
+        const path = window.location.pathname;
+        const parts = path.split('/').filter(p => p);
+        if (parts.length >= 1 && parts[parts.length - 1].endsWith('.html')) {
+            parts.pop();
+        }
+        return parts.length > 0 ? '/' + parts.join('/') + '/' : '/';
+    },
+
     async init() {
         const urlParams = new URLSearchParams(window.location.search);
         const postId = urlParams.get('id');
@@ -18,8 +27,10 @@ const PostRenderer = {
 
     async loadAndRender(postId) {
         try {
+            const basePath = this.getBasePath();
+
             // Load post index to get metadata
-            const indexResponse = await fetch('content/posts/index.json');
+            const indexResponse = await fetch(basePath + 'content/posts/index.json');
             const posts = await indexResponse.json();
             const postMeta = posts.find(p => p.id === postId);
 
@@ -29,7 +40,7 @@ const PostRenderer = {
             }
 
             // Load post content
-            const contentResponse = await fetch(`content/posts/${postId}.md`);
+            const contentResponse = await fetch(basePath + `content/posts/${postId}.md`);
             if (!contentResponse.ok) {
                 this.showError('Post content not found');
                 return;
