@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NNOON Blog Post">
+    <meta name="author" content="NNOON">
+
+    <title>NNOON | Post</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Code Highlighting -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+
+    <!-- KaTeX for Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="index.html" class="nav__logo">
+                NNOON
+            </a>
+
+            <ul class="nav__links" id="navLinks">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="cv.html" class="nav__link">CV</a></li>
+                <li><a href="blog.html" class="nav__link nav__link--active">Blog</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Table of Contents (Desktop) -->
+    <aside class="post-toc" id="postToc">
+        <h4 class="post-toc__title">목차</h4>
+        <nav class="post-toc__list" id="tocList">
+            <!-- TOC will be generated dynamically -->
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="post-page">
+        <div class="container container--narrow">
+
+            <!-- Post Header -->
+            <header class="post-header" id="postHeader">
+                <span class="post-header__category" id="postCategory">Loading...</span>
+                <h1 class="post-header__title" id="postTitle">Loading...</h1>
+                <div class="post-header__meta">
+                    <span><i class="fas fa-calendar"></i> <span id="postDate">-</span></span>
+                    <span><i class="fas fa-clock"></i> <span id="postReadTime">-</span></span>
+                    <span><i class="fas fa-user"></i> NNOON</span>
+                </div>
+            </header>
+
+            <!-- Post Tags -->
+            <div class="tags" id="postTags" style="justify-content: center; margin-bottom: var(--spacing-2xl);">
+                <!-- Tags will be loaded -->
+            </div>
+
+            <!-- Post Content - Loaded from content/posts/{id}.md -->
+            <article class="post-content" id="postContent">
+                <p style="text-align: center; color: var(--text-muted);">Loading...</p>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">
+                    © 2024 NNOON
+                </p>
+                <div class="footer__links">
+                    <a href="index.html" class="footer__link">Home</a>
+                    <a href="blog.html" class="footer__link">All Posts</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- Additional language support -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/solidity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/rust.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/post-renderer.js"></script>
+</body>
+
+</html>

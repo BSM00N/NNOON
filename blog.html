@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NNOON - 논문 리뷰 & 기술 블로그">
+    <meta name="author" content="NNOON">
+
+    <title>NNOON | Blog</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+
+    <style>
+        /* Clean List Blog with Tags */
+        .blog {
+            padding-top: calc(var(--nav-height) + var(--spacing-2xl));
+            padding-bottom: var(--spacing-3xl);
+            min-height: 100vh;
+        }
+
+        .blog__container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-xl);
+        }
+
+        /* Tag Filter - Minimal */
+        .blog__tags {
+            display: flex;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-2xl);
+            flex-wrap: wrap;
+        }
+
+        .blog__tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: var(--text-xs);
+            color: var(--text-muted);
+            background: none;
+            border: none;
+            padding: var(--spacing-xs) 0;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .blog__tag:hover,
+        .blog__tag--active {
+            color: var(--accent-primary);
+        }
+
+        .blog__tag-separator {
+            color: var(--text-muted);
+            opacity: 0.3;
+        }
+
+        /* Post List */
+        .blog__list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog__item {
+            display: block;
+            padding: var(--spacing-lg) 0;
+            border-bottom: 1px solid var(--border-light);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .blog__item:last-child {
+            border-bottom: none;
+        }
+
+        .blog__item:hover .blog__title {
+            color: var(--accent-primary);
+        }
+
+        .blog__row {
+            display: flex;
+            align-items: baseline;
+            gap: var(--spacing-lg);
+        }
+
+        .blog__date {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: var(--text-xs);
+            color: var(--text-muted);
+            white-space: nowrap;
+            min-width: 90px;
+        }
+
+        .blog__title {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: var(--text-base);
+            font-weight: 500;
+            color: var(--text-heading);
+            transition: color 0.2s ease;
+        }
+
+        .blog__excerpt {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: var(--text-xs);
+            color: var(--text-muted);
+            margin-top: var(--spacing-xs);
+            padding-left: calc(90px + var(--spacing-lg));
+            line-height: 1.5;
+        }
+
+        /* Empty/Loading state */
+        .blog__empty,
+        .blog__loading {
+            text-align: center;
+            padding: var(--spacing-3xl);
+            color: var(--text-muted);
+            font-size: var(--text-sm);
+        }
+
+        @media (max-width: 600px) {
+            .blog__row {
+                flex-direction: column;
+                gap: var(--spacing-xs);
+            }
+
+            .blog__excerpt {
+                padding-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="index.html" class="nav__logo">
+                NNOON
+            </a>
+
+            <ul class="nav__links" id="navLinks">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="cv.html" class="nav__link">CV</a></li>
+                <li><a href="blog.html" class="nav__link nav__link--active">Blog</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content - Loaded from content/posts/index.json -->
+    <main class="blog">
+        <div class="blog__container">
+            <!-- Tag Filter -->
+            <div class="blog__tags" id="tagFilter">
+                <!-- Tags will be generated -->
+            </div>
+
+            <!-- Post List -->
+            <div class="blog__list" id="blogList">
+                <p class="blog__loading">Loading...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">
+                    © 2024 NNOON
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/blog-parser.js"></script>
+</body>
+
+</html>
