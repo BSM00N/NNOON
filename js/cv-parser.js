@@ -169,7 +169,7 @@ const CVParser = {
     let html = this.renderHeader(meta);
 
     // Render sections in order
-    const sectionOrder = ['Education', 'Experience', 'Skills', 'Publications'];
+    const sectionOrder = ['Education', 'Experience', 'Awards', 'Others', 'Skills', 'Publications'];
 
     for (const title of sectionOrder) {
       if (sections[title]) {

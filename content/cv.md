@@ -8,13 +8,24 @@ linkedin: byeong-seok-moon-733098373
 
 ## Education
 
-- **2020 — Present** | OO대학교 석사과정 | 컴퓨터공학과 · 보안/AI 연구
-- **2016 — 2020** | OO대학교 학사 | 컴퓨터공학과
+- **2021 - 2023** | Gwangju Science Academy for the gifted | High School | Computer Science & Math
+- **2023 — Present** | Korea University Bachelor's degree | Department of Cyber defense | Computer Science & Security
 
 ## Experience
 
-- **2023 — Present** | OO 연구실 | Graduate Researcher
-- **2022 Summer** | OO 기업 | Security Engineer Intern
+- **2025 — Present** | Hardware Security Lab | Undergraduate Researcher | Antitemparing Researcher
+- **2025** | Best of Best 14th | Vulnerability Analysis | Grand Prix : SAPIENS
+
+## Awards
+
+- **2025** | Crypto Analysis | Vulnerability Analysis | Grand Prix : SAPIENS
+- **2024** | 수상 내역을 입력하세요 | 수여 기관
+
+## Others
+
+- **2025** | Student Union of Department of Cyber defense [SUDO] | 문화국원
+- **2024** | President of Department of Cyber defense [CONTINUE] | 세부 내용
+- **2022** | 대외활동/자격증 등 기타 이력을 입력하세요 | 세부 내용
 
 ## Skills
 
