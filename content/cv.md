@@ -8,7 +8,7 @@ linkedin: bsmoon
 
 ## Education
 
-- **2021 — 2023** | Gwangju Science Academy for the gifted | High School | Computer Science & Math
+- **2020 — 2022** | Gwangju Science Academy for the gifted | High School | Computer Science & Math
 - **2023 — Present** | Korea University Bachelor's degree | Department of Cyber defense | Computer Science & Security
 
 ## Experience
