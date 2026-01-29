@@ -50,8 +50,12 @@ const BlogParser = {
     },
 
     getUniqueTags() {
-        const tags = [...new Set(this.posts.map(p => p.tag))];
-        return ['All', ...tags];
+        const fixedTags = ['Paper', 'AI', 'HW', 'CTF', 'etc'];
+        // Get tags from posts that are NOT in fixedTags (in case we have others)
+        const postTags = [...new Set(this.posts.map(p => p.tag))];
+        const extraTags = postTags.filter(t => !fixedTags.includes(t));
+
+        return ['All', ...fixedTags, ...extraTags];
     },
 
     getFilteredPosts() {

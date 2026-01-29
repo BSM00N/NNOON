@@ -10,7 +10,7 @@
     "id": "smart-contract-security",
     "title": "스마트 컨트랙트 보안 취약점 분석",
     "date": "2024-01-10",
-    "tag": "Security",
+    "tag": "etc",
     "excerpt": "Reentrancy, Integer Overflow 등 주요 취약점 패턴"
   }
 ]
