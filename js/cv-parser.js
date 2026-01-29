@@ -82,7 +82,12 @@ const CVParser = {
 
       // Remove the ## title line
       const lines = sectionContent.split('\n').slice(1).join('\n').trim();
-      sections[sectionTitles[i].title] = this.parseList(lines);
+
+      if (sectionTitles[i].title === 'Skills') {
+        sections[sectionTitles[i].title] = lines;
+      } else {
+        sections[sectionTitles[i].title] = this.parseList(lines);
+      }
     }
 
     return sections;
