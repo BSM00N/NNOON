@@ -83,10 +83,10 @@ const CVParser = {
       // Remove the ## title line
       const lines = sectionContent.split('\n').slice(1).join('\n').trim();
 
-      if (sectionTitles[i].title === 'Skills') {
-        sections[sectionTitles[i].title] = lines;
+      if (sectionTitles[i].title.trim() === 'Skills') {
+        sections[sectionTitles[i].title.trim()] = lines;
       } else {
-        sections[sectionTitles[i].title] = this.parseList(lines);
+        sections[sectionTitles[i].title.trim()] = this.parseList(lines);
       }
     }
 
@@ -135,12 +135,13 @@ const CVParser = {
 
   renderSection(title, items, isSkills = false) {
     if (isSkills) {
-      // Skills is just comma-separated text
-      const skillText = items.map(i => i.title).join(', ') || items.toString();
+      // Handle simple string content for Skills
+      const skillText = typeof items === 'string' ? items : (items.map(i => i.title).join(', ') || items.toString());
+
       return `
         <section class="cv__section">
           <h2 class="cv__section-title">${title}</h2>
-          <p class="cv__skills">${typeof items === 'string' ? items : skillText}</p>
+          <p class="cv__skills">${skillText}</p>
         </section>
       `;
     }
