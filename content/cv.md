@@ -21,7 +21,7 @@ linkedin: bsmoon
 ## Awards
 
 - **2024** | Cryptographic Analysis Contest - Special Award | KIISC
-- **2025** | KoS CTF (Korea University X Sungshin Women’s University) - Grand Prize | Korea University
+- **2025** | KoS CTF (Korea University X Sungshin Women’s University) - 2nd Prize | Korea University
 - **2025** | DEF CON CTF - Finalist [ColdFusion] | DEF CON
 - **2025** | The 12th National ICT Convergence Competition - Participation Award (SAPIENS AI) | CBIST & CBAI
 
@@ -40,4 +40,4 @@ Python, Solidity, Rust, Computer Security, Machine Learning, PyTorch, Blockchain
 
 ## Publications
 
-- **2025** | SAPIENS: Ontology, Graph RAG, Agentic AI를 통합한 지능형 Web3 보안 감사 시스템 설계 (Design of Intelligent Web3 Security Audit System Integrating Ontology, Graph RAG, and Agentic AI) | Korea Institute of Information Security and Cryptology
+- **2025** | SAPIENS: Ontology, Graph RAG, Agentic AI를 통합한 지능형 Web3 보안 감사 시스템 설계 (Design of Intelligent Web3 Security Audit System Integrating Ontology, Graph RAG, and Agentic AI) | KIISC
