@@ -8,8 +8,8 @@ linkedin: bsmoon
 
 ## Education
 
-- **2020 — 2022** | Gwangju Science Academy for the gifted | High School | Computer Science & Math
-- **2023 — Present** | Korea University Bachelor's degree | Department of Cyber defense | Computer Science & Security
+- **2020 — 2022** | Gwangju Science Academy for the Gifted | High School | Computer Science & Math
+- **2023 — Present** | Korea University Bachelor's degree | Department of Cyber Defense | Computer Science & Security
 
 ## Experience
 
@@ -27,8 +27,8 @@ linkedin: bsmoon
 
 ## Others
 
-- **2023** | Student Union of Department of Cyber defense | Member of Culture Bureau
-- **2024** | President of Department of Cyber defense | Student Council President
+- **2023** | Student Union of Department of Cyber Defense | Member of Culture Bureau
+- **2024** | President of Department of Cyber Defense | Student Council President
 
 - **2023** | Korea University Algorithm Club [MatKor] | Member
 - **2024 — Present** | Korea University Algorithm Club [MatKor] | Executive
