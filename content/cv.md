@@ -22,8 +22,9 @@ linkedin: bsmoon
 
 - **2024** | Cryptographic Analysis Contest - Special Award | KIISC
 - **2025** | KoS CTF (Korea University X Sungshin Women’s University) - 2nd Prize | Korea University
-- **2025** | DEF CON CTF - Finalist [ColdFusion] | DEF CON
+- **2025** | DEF CON CTF Final 10th - Finalist [ColdFusion] | DEF CON
 - **2025** | The 12th National ICT Convergence Competition - 4th Prize (SAPIENS AI) | CBIST & CBAI
+- **2026** | Lake CTF - Finalist [CyKor] | Lake CTF
 
 ## Others
 
