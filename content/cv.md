@@ -16,7 +16,7 @@ linkedin: bsmoon
 - **2024** | AI Bootcamp (Deep Learning Course) | OUTTA AI Lab
 - **2025 — Present** | Hardware Security Lab - Anti-tampering | Undergraduate Researcher
 - **2025 — Present** | KITRI Best of the Best (BoB) 14th | Vulnerability Analysis Track | Project Lead (SAPIENS)
-- **2025 — Present** | Rutile : Web3 AI Audit Agent | Researcher
+- **2025 — Present** | Rutile : Web3 AI Audit Agent | Co-member & Researcher
 
 ## Awards
 
