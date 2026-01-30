@@ -23,15 +23,17 @@ linkedin: bsmoon
 - **2024** | Cryptographic Analysis Contest - Special Award | KIISC
 - **2025** | KoS CTF (Korea University X Sungshin Women’s University) - 2nd Prize | Korea University
 - **2025** | DEF CON CTF - Finalist [ColdFusion] | DEF CON
-- **2025** | The 12th National ICT Convergence Competition - Participation Award (SAPIENS AI) | CBIST & CBAI
+- **2025** | The 12th National ICT Convergence Competition - 4th Prize (SAPIENS AI) | CBIST & CBAI
 
 ## Others
 
 - **2023** | Student Union of Department of Cyber defense | Member of Culture Bureau
+- **2024** | President of Department of Cyber defense | Student Council President
+
 - **2023** | Korea University Algorithm Club [MatKor] | Member
-- **2024** | Department of Cyber defense | Student Council President
 - **2024 — Present** | Korea University Algorithm Club [MatKor] | Executive
 - **2025 — Present** | Korea University Hacking Club [CyKor] | Member
+
 - **2026** | 2026 Singapore Startup Ecosystem Immersion Program - KU x NUS x NTU | Participant
 
 ## Skills
