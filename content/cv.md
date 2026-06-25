@@ -15,8 +15,8 @@ linkedin: bsmoon
 
 - **2024** | AI Bootcamp (Deep Learning Course) | OUTTA AI Lab
 - **2025 — Present** | Hardware Security Lab - Anti-tampering | Undergraduate Researcher
-- **2025 — Present** | KITRI Best of the Best (BoB) 14th | Vulnerability Analysis Track | Project Lead (SAPIENS)
-- **2025 — Present** | Rutile : Web3 AI Audit Agent | Co-member & Researcher
+- **2025** | KITRI Best of the Best (BoB) 14th | Vulnerability Analysis Track | Project Lead (SAPIENS)
+- **2025** | Rutile : Web3 AI Audit Agent | Co-member & Researcher
 
 ## Awards
 
@@ -24,7 +24,8 @@ linkedin: bsmoon
 - **2025** | KoS CTF (Korea University X Sungshin Women’s University) - 2nd Prize | Korea University
 - **2025** | DEF CON CTF Final 10th - Finalist [ColdFusion] | DEF CON
 - **2025** | The 12th National ICT Convergence Competition - 4th Prize (SAPIENS AI) | CBIST & CBAI
-- **2026** | Lake CTF - Finalist [CyKor] | Lake CTF
+- **2026** | Lake CTF Final - Participant [CyKor] | Lake CTF
+- **2026** | DEFCON CTF Finalist | DEFCON
 
 ## Others
 

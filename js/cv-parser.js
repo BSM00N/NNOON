@@ -100,7 +100,7 @@ const CVParser = {
     for (const line of lines) {
       const cleaned = line.replace(/^-\s*/, '').trim();
 
-      // Parse format: **date** | title | subtitle
+      // Parse format: **date** | title | subtitle | details...
       const boldMatch = cleaned.match(/\*\*(.+?)\*\*/);
       const date = boldMatch ? boldMatch[1] : '';
 
@@ -109,7 +109,7 @@ const CVParser = {
       items.push({
         date: date,
         title: parts[0] || '',
-        subtitle: parts[1] || ''
+        subtitle: parts.slice(1).filter(Boolean).join(' · ')
       });
     }
 
