@@ -40,7 +40,7 @@ linkedin: bsmoon
 
 ## Skills
 
-Python, Solidity, Rust, Computer Security, Machine Learning, PyTorch, Blockchain, Verilog, HW Security
+Python, Solidity, Computer Security, Machine Learning, PyTorch, Blockchain, Verilog, HW Security
 
 ## Publications
 
