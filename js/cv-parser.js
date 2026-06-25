@@ -18,7 +18,7 @@ const CVParser = {
   async load() {
     try {
       const basePath = this.getBasePath();
-      const response = await fetch(basePath + 'content/cv.md');
+      const response = await fetch(`${basePath}content/cv.md?v=${Date.now()}`, { cache: 'no-store' });
       if (!response.ok) throw new Error('CV file not found');
       const markdown = await response.text();
       return this.parse(markdown);
