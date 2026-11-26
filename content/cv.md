@@ -17,23 +17,22 @@ linkedin: bsmoon
 - **2025.01 — Present** | Hardware Security Lab: Anti-tampering | Undergraduate Researcher
 - **2025.07 — 2026.02** | KITRI Best of the Best (BoB) 14th | Vulnerability Analysis Track | Project Name: SAPIENS
 - **2025.09 — 2026.02** | Rutile: Web3 AI Audit Agent | Co-member & Researcher
-- **2026.08 — Present** | ENKI Whitehat | HW Research Team
+- **2026.08 — Present** | ENKI Whitehat | HW Research Team: Intern
 
 ## Awards
 
 - **2024.10** | Cryptographic Analysis Contest - Special Award | KIISC
-- **2025.11** | KoS CTF (Korea University X Sungshin Women’s University) - 2nd Prize | Korea University
 - **2025.08** | DEF CON CTF Final 10th - Finalist [ColdFusion] | DEF CON
+- **2025.11** | KoS CTF (Korea University X Sungshin Women’s University) - 2nd Prize | Korea University
 - **2025.11** | The 12th National ICT Convergence Competition - 4th Prize (SAPIENS AI) | CBIST & CBAI
 - **2026.05** | Lake CTF Final - Participant [CyKor] | Lake CTF
 - **2026.08** | DEF CON CTF - 4th Place [ColdFusion] | DEF CON
 
 ## Others
 
+- **2023.03 — 2024.01** | Korea University Algorithm Club [MatKor] | Member
 - **2023.04 — 2023.11** | Student Union of Department of Cyber Defense | Member of Culture Bureau
 - **2023.12 — 2024.11** | President of Department of Cyber Defense | Student Council President
-
-- **2023.03 — 2024.01** | Korea University Algorithm Club [MatKor] | Member
 - **2024.02 — Present** | Korea University Algorithm Club [MatKor] | Executive
 - **2025.04 — Present** | Korea University Hacking Club [CyKor] | Member
 
@@ -42,7 +41,7 @@ linkedin: bsmoon
 
 ## Skills
 
-Python, Solidity, Computer Security, Machine Learning, PyTorch, Blockchain, Verilog, HW Security
+C, Python, Solidity, Computer Security, Machine Learning, Blockchain, Verilog, HW Security
 
 ## Publications
 
