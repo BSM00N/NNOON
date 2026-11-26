@@ -14,10 +14,10 @@ linkedin: bsmoon
 ## Experience
 
 - **2024.06 — 2024.08** | AI Bootcamp (Deep Learning Course) | OUTTA AI Lab
-- **2025.01 — Present** | Hardware Security Lab - Anti-tampering | Undergraduate Researcher
-- **2025.07 — 2026.02** | KITRI Best of the Best (BoB) 14th | Vulnerability Analysis Track | Project Lead (SAPIENS)
-- **2025.08 — Present** | ENKI Whitehat
-- **2025.09 — 2026.02** | Rutile : Web3 AI Audit Agent | Co-member & Researcher
+- **2025.01 — Present** | Hardware Security Lab: Anti-tampering | Undergraduate Researcher
+- **2025.07 — 2026.02** | KITRI Best of the Best (BoB) 14th | Vulnerability Analysis Track | Project Name: SAPIENS
+- **2026.08 — Present** | ENKI Whitehat | HW Research Team * Intern
+- **2025.09 — 2026.02** | Rutile: Web3 AI Audit Agent | Co-member & Researcher
 
 ## Awards
 
