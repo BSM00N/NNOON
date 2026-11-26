@@ -133,6 +133,14 @@ const CVParser = {
     `;
   },
 
+  renderDate(date) {
+    return date.replace(/(^|[\s—–])(\d{4})[.-](0?[1-9]|1[0-2])(?=$|[\s—–])/g,
+      (_, prefix, year, month) => {
+        const paddedMonth = month.padStart(2, '0');
+        return `${prefix}<time datetime="${year}-${paddedMonth}">${year}.${paddedMonth}</time>`;
+      });
+  },
+
   renderSection(title, items, isSkills = false) {
     if (isSkills) {
       // Handle simple string content for Skills
@@ -148,7 +156,7 @@ const CVParser = {
 
     const itemsHtml = items.map(item => `
       <div class="cv__item">
-        <span class="cv__date">${item.date}</span>
+        <span class="cv__date">${this.renderDate(item.date)}</span>
         <div class="cv__content">
           <p class="cv__item-title">${item.title}</p>
           ${item.subtitle ? `<p class="cv__item-sub">${item.subtitle}</p>` : ''}
@@ -187,7 +195,7 @@ const CVParser = {
     // Download link
     html += `
       <div class="cv__download">
-        <a href="assets/NNOON_CV.pdf?v=20260626-1" download="NNOON_CV.pdf" class="cv__download-link">
+        <a href="assets/NNOON_CV.pdf?v=20261127-1" download="NNOON_CV.pdf" class="cv__download-link">
           ↓ Download PDF
         </a>
       </div>

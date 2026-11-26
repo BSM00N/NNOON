@@ -99,7 +99,7 @@
             font-size: var(--text-xs);
             color: var(--text-muted);
             white-space: nowrap;
-            min-width: 120px;
+            flex: 0 0 18ch;
         }
 
         .cv__content {
@@ -156,6 +156,10 @@
                 flex-direction: column;
                 gap: var(--spacing-xs);
             }
+
+            .cv__date {
+                flex-basis: auto;
+            }
         }
     </style>
 </head>
@@ -207,7 +211,7 @@
 
     <!-- Scripts -->
     <script src="js/main.js"></script>
-    <script src="js/cv-parser.js?v=20260626-1"></script>
+    <script src="js/cv-parser.js?v=20261127-1"></script>
 </body>
 
 </html>

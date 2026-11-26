@@ -20,6 +20,9 @@ git push
 3. 1-2분 후 사이트에 반영
 
 **CV 파일 형식:**
+
+날짜는 연도만 쓰거나 월까지 입력할 수 있습니다. `2025-03` 또는 `2025.03`은 웹에서 `2025.03`으로 표시됩니다.
+
 ```markdown
 ---
 name: 이름
@@ -30,10 +33,10 @@ linkedin: linkedin-username
 ---
 
 ## Education
-- **2020 — Present** | 학교명 | 전공
+- **2020.03 — 2023.02** | 학교명 | 전공
 
 ## Experience
-- **2023 — Present** | 회사명 | 직책
+- **2023.03 — Present** | 회사명 | 직책
 
 ## Skills
 Python, JavaScript, Solidity, ...
