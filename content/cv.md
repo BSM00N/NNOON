@@ -8,7 +8,7 @@ linkedin: bsmoon
 
 ## Education
 
-- **2020.03 — 2022.02** | Gwangju Science Academy for the Gifted | High School | Computer Science & Math
+- **2020.03 — 2022.02** | Gwangju Science Academy for the Gifted | High School: Computer Science & Math
 - **2023.03 — Present** | Korea University Bachelor's degree | Department of Cyber Defense | Computer Science & Security<br>GPA 4.06/4.5
 
 ## Experience
@@ -41,7 +41,7 @@ linkedin: bsmoon
 
 ## Skills
 
-C, Python, Solidity, Computer Security, Machine Learning, Blockchain, Verilog, HW Security
+C, Python, Computer Security, Machine Learning, Verilog, HW Security
 
 ## Publications
 
