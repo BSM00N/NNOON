@@ -8,16 +8,16 @@ linkedin: bsmoon
 
 ## Education
 
-- **2020 — 2022** | Gwangju Science Academy for the Gifted | High School | Computer Science & Math
-- **2023 — Present** | Korea University Bachelor's degree | Department of Cyber Defense | Computer Science & Security<br>GPA 4.06/4.5
+- **2020.03 — 2022.02** | Gwangju Science Academy for the Gifted | High School | Computer Science & Math
+- **2023.03 — Present** | Korea University Bachelor's degree | Department of Cyber Defense | Computer Science & Security<br>GPA 4.06/4.5
 
 ## Experience
 
 - **2024.06 — 2024.08** | AI Bootcamp (Deep Learning Course) | OUTTA AI Lab
 - **2025.01 — Present** | Hardware Security Lab: Anti-tampering | Undergraduate Researcher
 - **2025.07 — 2026.02** | KITRI Best of the Best (BoB) 14th | Vulnerability Analysis Track | Project Name: SAPIENS
-- **2026.08 — Present** | ENKI Whitehat | HW Research Team * Intern
 - **2025.09 — 2026.02** | Rutile: Web3 AI Audit Agent | Co-member & Researcher
+- **2026.08 — Present** | ENKI Whitehat | HW Research Team
 
 ## Awards
 
@@ -30,12 +30,12 @@ linkedin: bsmoon
 
 ## Others
 
-- **2023** | Student Union of Department of Cyber Defense | Member of Culture Bureau
-- **2024** | President of Department of Cyber Defense | Student Council President
+- **2023.04 — 2023.11** | Student Union of Department of Cyber Defense | Member of Culture Bureau
+- **2023.12 — 2024.11** | President of Department of Cyber Defense | Student Council President
 
-- **2023** | Korea University Algorithm Club [MatKor] | Member
-- **2024 — Present** | Korea University Algorithm Club [MatKor] | Executive
-- **2025 — Present** | Korea University Hacking Club [CyKor] | Member
+- **2023.03 — 2024.01** | Korea University Algorithm Club [MatKor] | Member
+- **2024.02 — Present** | Korea University Algorithm Club [MatKor] | Executive
+- **2025.04 — Present** | Korea University Hacking Club [CyKor] | Member
 
 - **2026.01** | 2026 Singapore Startup Ecosystem Immersion Program - KU x NUS x NTU | Participant
 - **2026.03** | RSA Conference | Visitor

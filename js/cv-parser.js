@@ -195,7 +195,7 @@ const CVParser = {
     // Download link
     html += `
       <div class="cv__download">
-        <a href="assets/NNOON_CV.pdf?v=20261127-2" download="NNOON_CV.pdf" class="cv__download-link">
+        <a href="assets/NNOON_CV.pdf?v=20261127-3" download="NNOON_CV.pdf" class="cv__download-link">
           ↓ Download PDF
         </a>
       </div>
